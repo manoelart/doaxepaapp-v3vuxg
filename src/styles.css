@@ -1,0 +1,57 @@
+/* Add application styles & imports to this file! */
+@import '~@ionic/angular/css/ionic.bundle.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --ion-font-family: 'Montserrat', sans-serif;
+
+  /* Barra Superior */
+
+  --ion-toolbar-background: #8d0000;
+  --ion-toolbar-color: #ffffff;
+
+  /* Fundo do Conteúdo */
+
+  --ion-background-color: #ffffff;
+
+  /* Barra Inferior */
+
+  --ion-tab-bar-background: #8d0000;
+  --ion-tab-bar-color: #ffffff;
+  --ion-tab-bar-color-selected: #2cc617;
+}
+
+/* Título das páginas */
+
+.tittle {
+  text-align: center;
+}
+
+/* (Tab 1) Acompanhamento */
+
+.content-acomp {
+  position: relative;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  background-color: #d9d9d9;
+  width: 95%;
+  height: 96px;
+  border-radius: 80px;
+  border: 1px solid;
+  line-height: 5px;
+}
+
+/* (Tab 3) Perfil */
+
+.content-profile {
+  position: relative;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  line-height: 1px;
+  border-bottom: 1px solid #c6c6c6;
+}

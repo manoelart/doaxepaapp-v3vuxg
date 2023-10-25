@@ -1,0 +1,21 @@
+ion-content {
+  .content-acomp {
+    h2 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #8d0000;
+    }
+    p {
+      font-size: 12px;
+      font-weight: 600;
+      color: #525252;
+      span {
+        font-weight: 100;
+      }
+    }
+  }
+  ion-icon {
+    color: #006600;
+    font-size: 30px;
+  }
+}

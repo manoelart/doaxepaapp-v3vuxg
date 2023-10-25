@@ -1,0 +1,47 @@
+<ion-header> </ion-header>
+
+<ion-content>
+  <div class="content-welcome">
+    <div class="photo">
+      <img
+        src="https://media.istockphoto.com/id/453963935/pt/foto/frutas-e-produtos-hort%C3%ADcolas-no-mercado-da-cidade-de-riga.jpg?s=612x612&w=0&k=20&c=XGQ7TPuJL2MG2G0fr4DlqrwGw-dI12hahLkMN4j6STM="
+      />
+    </div>
+    <p>OLÁ SUPERMERCADO FÊNIX, PRONTO PARA DOAR?</p>
+    <ion-tab-button tab="tab5">
+      <ion-icon name="ellipsis-vertical"></ion-icon>
+    </ion-tab-button>
+  </div>
+  <div class="content-reg-food">
+    <ion-tab-button class="content-food-btn" tab="tab4">
+      <ion-icon name="add-outline"></ion-icon>
+    </ion-tab-button>
+    <h2>CADASTRAR PRODUTOS</h2>
+  </div>
+  <div class="content-carroussel">
+    <h2>PRODUTOS JÁ CADASTRADOS</h2>
+    <ion-slides [options]="option" class="carroussel">
+      <ion-slide>
+        <ion-card>
+          <img
+            src="https://ibassets.com.br/ib.item.image.big/b-b10ccd91eb7a4c3b9ef32a68af0c71a7.jpeg"
+          />
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img
+            src="https://storage.googleapis.com/phygital_files/fazfeira/uploads/produto/uva_sem_semente_vitoria_500g_4346bc0a-df8a-4191-9277-bdbb3dc03609.jpg"
+          />
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img
+            src="https://centralmaxsupermercados.com.br/imagens_site/34891.jpg"
+          />
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+  </div>
+</ion-content>

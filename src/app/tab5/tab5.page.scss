@@ -1,0 +1,29 @@
+ion-header {
+  background-color: #800707f6;
+}
+
+h1 {
+  color: #fff;
+}
+
+.container {
+  background-color: #800707f6;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+//Botão de voltar
+.div-arrow {
+  display: flex;
+  justify-content: start;
+}
+
+.arrow {
+  width: 33px;
+  height: 33px;
+  color: #fff;
+  left: 20px;
+  margin-top: 21px;
+}
